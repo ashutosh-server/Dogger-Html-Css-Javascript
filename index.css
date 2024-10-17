@@ -1,17 +1,47 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-.nav{
-    display: flex;
-    gap: 20px;
+body {
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
-.nav-title{
+
+.nav {
+    display: flex;
+    gap: 50px;
+    padding-top: 5px;
+}
+
+.nav-title {
     list-style: none;
 }
 
-.font{
+.font {
+    font-weight: 400;
+    font-size: x-large;
+}
+
+
+.main-header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 600px;
+    margin-top: 10px;
+    padding: 0 180px 0 180px;
+    font-size: medium;
     
+}
+
+section{
+    border: 1px solid black;
+}
+.span-dot{
+    font-size: medium;
+    padding-top: 10px;
+    font-weight: 500;
 }

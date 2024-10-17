@@ -23,24 +23,39 @@ body {
 
 .font {
     font-weight: 400;
-    font-size: x-large;
+    font-size: xx-large;
+    padding-left: 200px;
 }
 
 
 .main-header {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 565px;
-    padding: 0 200px 0 200px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 150px;
+    padding: 0 500px 0 500px;
     font-size: medium;
-    
+    display: fixed;
+    padding: 1%;
 }
 
-section{
+section {
     border: 1px solid black;
 }
-.span-dot{
+
+.span-dot {
     font-size: medium;
     padding-top: 10px;
     font-weight: 500;
+}
+
+.main-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    gap: 150px;
+    padding: 0 200px 0 200px;
+}
+
+.body-title{
+    padding-top: 250px;
 }

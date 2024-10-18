@@ -1,57 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dogger</title>
-    <link href="/index.css" rel="stylesheet" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- Header -->
-    <section class="border-tem">
-      <div class="main-header">
-        <div style="display: flex">
-          <h1 class="font">Dogger</h1>
-          <span class="span-dot" style="color: #afbcbd">.</span>
-        </div>
-        <div>
-          <ul class="nav">
-            <li class="nav-title">Home</li>
-            <li class="nav-title">About</li>
-            <li class="nav-title">Trainers</li>
-            <li class="nav-title">Services</li>
-            <li class="nav-title">Contact</li>
-          </ul>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dogger</title>
+  <link href="/index.css" rel="stylesheet" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Header -->
+  <section class="border-tem">
+    <div class="main-header">
+      <div style="display: flex">
+        <h1 class="font" style="display: flex;">Dogger <div style="color: #afbcbd">.</div></h1>
       </div>
-    </section>
-
-    <!-- Body -->
-    <section>
-      <div class="main-body">
-        <div class="body-title">
-          <h1 style="width: 400px; font-size: 60px;">WE CARE FOR YOUR DOG</h1>
-          <p style="color: #b3b1b3; width: 320px;">We always try to provide your dog the best services.</p>
-        </div>
-        <div>
-          <img src="./Img/dogger_img_1.png.webp"  style="width: 500px;"/>
-        </div>
+      <div>
+        <ul class="nav">
+          <li class="nav-title home">Home</li>
+          <li class="nav-title">About</li>
+          <li class="nav-title">Trainers</li>
+          <li class="nav-title">Services</li>
+          <li class="nav-title">Contact</li>
+        </ul>
       </div>
-    </section>
+    </div>
+  </section>
 
-
-    <section>
-      <div class="greetings-flex">
-        <h1>WELCOME TO DOGGER PET CARE</h1>
-        <p></p>
+  <!-- Body -->
+  <section>
+    <div class="main-body">
+      <div class="body-title">
+        <h1 style="width: 400px; font-size: 60px;">WE CARE FOR YOUR DOG</h1>
+        <p style="color: #b3b1b3; width:320px;">We always try to provide your dog the best services.</p>
       </div>
-    </section>
-  </body>
+      <div>
+        <img src="./Img/dogger_img_1.png.webp" style="width: 500px; padding-top: 50px;" />
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="greetings-flex">
+      <div>
+        <div style="text-align: center;">
+          <div>
+            <!-- Corrected icon class -->
+            <i class="fa-solid fa-paw" style="color: #a3c0be;"></i>
+          </div>
+          <h1>WELCOME TO DOGGER PET CARE</h1>
+        </div>
+        <p style="width: 540px; color: #9192a3; text-align: center;">Far far away, behind the word mountains, far from
+          the countries
+          Vokalia and Consonantia, there live the blind
+          texts.</p>
+      </div>
+    </div>
+
+    <div class="Love-title">
+      <div>
+        <h1 style="font-weight: 400;">Love & Care</h1>
+        <p style="display: flex; justify-content: end;">Far far away, behind the word mountains, Separated they live in Bookmarksgrove right at the coast of the
+          Semantics, a
+          large language ocean.
+        </p>
+      </div>
+      <div>
+        <img src="./Img/dogger_img_sm_3.jpg.webp" style="width: 600px;">
+      </div>
+    </div>
+  </section>
+
+</body>
+
+<script>
+  window.addEventListener('scroll', () => {
+    const scrollPosition = window.scrollY;
+    const section = document.querySelector('.border-tem');
+    const headerText = document.querySelector('.font');
+    const navtitle = document.querySelector('.nav');
+    const home = document.querySelector('.home');
+
+    // Change the section background and text color based on the scroll position
+    if (scrollPosition > 20) {
+      section.style.background = 'white';
+      headerText.style.color = 'black';
+      navtitle.style.color = 'black';
+      home.style.color = "a3c0be";
+    } else {
+      // Revert to the default gradient background and text color when not scrolling
+      section.style.background = 'transparent';
+      headerText.style.color = 'black';
+      navtitle.style.color = 'black';
+      home.style.color = "black";
+    }
+  });
+</script>
+
 </html>

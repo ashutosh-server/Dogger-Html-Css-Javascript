@@ -9,62 +9,72 @@ body {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .nav {
     display: flex;
     gap: 40px;
-    padding-top: 7px;
+    padding-top: 17px;
 }
 
 .nav-title {
     list-style: none;
+    cursor: pointer;
+    transition: color 0.5s ease;
 }
 
 .font {
     font-weight: 400;
     font-size: xx-large;
     padding-left: 200px;
+    transition: color 0.5s ease;
 }
 
 
 .main-header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 150px;
+    gap: 200px;
     padding: 0 500px 0 500px;
     font-size: medium;
-    display: sticky;
-    top: 10px;
-    padding: 1%;
-}
-
-.span-dot {
-    font-size: medium;
     padding-top: 10px;
-    font-weight: 500;
+    padding: 0%
 }
-
 .main-body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-evenly;
     gap: 150px;
     padding: 0 200px 0 200px;
+    background-color: #f8f9fb;
 }
 
-.body-title{
-    padding-top: 200px;
+.body-title {
+    padding-top: 290px;
 }
 
-.greetings-flex{
+.greetings-flex {
     display: flex;
     justify-content: center;
+    padding-top: 300px;
+
 
 }
- 
-.border-tem{
-    border: 1px solid black;
-    position: sticky;
-    top: 0px;
+
+.border-tem {
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(to right, #f8f9fb 0%, #f8f9fb 100%);
+    transition: background 0.5s ease, color 0.5s ease;
 }
+
+.Love-title{
+    padding:0 200px 0 200px;
+    display: flex;
+    transition: color 0.5s ease;
+    gap: 100px;
+}
+
+

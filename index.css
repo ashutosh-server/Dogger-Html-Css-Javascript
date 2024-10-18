@@ -39,10 +39,6 @@ body {
     padding: 1%;
 }
 
-section {
-    border: 1px solid black;
-}
-
 .span-dot {
     font-size: medium;
     padding-top: 10px;
@@ -59,4 +55,16 @@ section {
 
 .body-title{
     padding-top: 200px;
+}
+
+.greetings-flex{
+    display: flex;
+    justify-content: center;
+
+}
+ 
+.border-tem{
+    border: 1px solid black;
+    position: sticky;
+    top: 0px;
 }

@@ -15,7 +15,7 @@ body {
 .nav {
     display: flex;
     gap: 40px;
-    padding-top: 17px;
+    padding-top: 10px;
 }
 
 .nav-title {

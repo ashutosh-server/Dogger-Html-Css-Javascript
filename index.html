@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -52,34 +53,56 @@
   <section>
     <div class="greetings-flex">
       <div>
-        <div style="text-align: center;">
-          <div>
-            <!-- Corrected icon class -->
-            <i class="fa-solid fa-paw" style="color: #a3c0be;"></i>
+        <div data-aos="fade-up">
+
+          <div style="text-align: center;">
+            <div>
+              <!-- Corrected icon class -->
+              <i class="fa-solid fa-paw" style="color: #a3c0be;"></i>
+            </div>
+            <h1 style="font-size: xx-large;">WELCOME TO DOGGER PET CARE</h1>
           </div>
-          <h1 style="font-size: xx-large;">WELCOME TO DOGGER PET CARE</h1>
+          <p style="width: 540px; color: #9192a3; text-align: center;">Far far away, behind the word mountains, far from
+            the countries
+            Vokalia and Consonantia, there live the blind
+            texts.</p>
         </div>
-        <p style="width: 540px; color: #9192a3; text-align: center;">Far far away, behind the word mountains, far from
-          the countries
-          Vokalia and Consonantia, there live the blind
-          texts.</p>
       </div>
     </div>
 
     <div class="Love-body">
-      <div class="Love-title">
-        <h1 style="font-weight: 400; display: flex; justify-content: end; font-size: xx-large;">Love & Care</h1>
-        <div style="display: inline-block; justify-content: end;">
+      <div class="Love-title" style="display: block; justify-content: end;">
+        <div data-aos="fade-left">
 
-          <p style="width:440px;">Far far away, behind the word mountains,
-            Separated they live in
-            Bookmarksgrove right at the coast of the Semantics, a large language ocean.
-          </p>
+          <h1 style="font-weight: 400; display: flex; justify-content: end; font-size: xx-large;">Love & Care</h1>
+          <div style="display: flex; justify-content: end;">
+
+            <p style="width:440px;">Far far away, behind the word mountains,
+              Separated they live in
+              Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+            </p>
+          </div>
+          <div style="display: flex; justify-content: end;">
+
+            <button class="Read-More">
+              Read More
+            </button>
+          </div>
         </div>
       </div>
-      <div>
-        <img src="./Img/dogger_img_sm_3.jpg.webp" style="width: 500px;">
+      <div data-aos="fade-right">
+
+        <div>
+          <img src="./Img/dogger_img_sm_3.jpg.webp" style="width: 500px;">
+        </div>
       </div>
+    </div>
+
+
+
+
+    <div>
+      <img src="">
     </div>
   </section>
 
@@ -107,6 +130,10 @@
       home.style.color = "black";
     }
   });
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
 </script>
 
 </html>

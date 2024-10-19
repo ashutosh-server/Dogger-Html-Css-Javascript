@@ -82,3 +82,18 @@ body {
     padding-top: 100px;
 }
 
+.Read-More{
+    border-radius: 50px;
+    border: none;
+    background-color: #a3c0be;
+    color: white;
+    font-size: medium;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+}
+
+.Read-More:hover {
+    background-color: black;
+    transition: all;
+    transition-duration: 500ms;
+}

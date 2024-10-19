@@ -70,7 +70,7 @@ body {
     transition: background 0.5s ease, color 0.5s ease;
 }
 
-.Love-body{
+.Welcome-body{
     padding:0 200px 0 200px;
     display: flex;
     transition: color 0.5s ease;
@@ -78,7 +78,7 @@ body {
     padding-top: 100px;
 }
 
-.Love-title{
+.Welcome-title{
     padding-top: 100px;
 }
 
@@ -88,6 +88,7 @@ body {
     background-color: #a3c0be;
     color: white;
     font-size: medium;
+    margin-top: 20px;
     padding: 15px 30px 15px 30px;
     cursor: pointer;
 }

@@ -98,3 +98,22 @@ body {
     transition: all;
     transition-duration: 500ms;
 }
+
+.List{
+    display: flex;
+    margin-top: 15px;
+}
+
+.About-Body{
+    display: flex;
+    gap:100px;
+    padding: 0 200px 0 200px;
+}
+
+.Main-About{
+    padding-top: 200px;
+}
+
+.About-title{
+    padding-top: 250px;
+}

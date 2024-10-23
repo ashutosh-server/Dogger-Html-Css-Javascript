@@ -120,7 +120,7 @@ body {
 }
 
 .Trainers {
-    padding-top: 100px;
+    padding: 100px 0 100px 0;
     background-color: #a3c0be;
     display: block;
     text-align: center;
@@ -144,4 +144,14 @@ body {
 .img-training{
     width: 350px;
     height: 450px;
+}
+
+.Pricing-body {
+    padding-top: 100px;
+    display: block;
+    text-align: center;
+}
+
+.Pricing-section{
+    padding-top: 100px;
 }

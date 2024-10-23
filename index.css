@@ -41,6 +41,7 @@ body {
     padding-top: 10px;
     padding: 0%
 }
+
 .main-body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -70,19 +71,19 @@ body {
     transition: background 0.5s ease, color 0.5s ease;
 }
 
-.Welcome-body{
-    padding:0 200px 0 200px;
+.Welcome-body {
+    padding: 0 200px 0 200px;
     display: flex;
     transition: color 0.5s ease;
     gap: 100px;
     padding-top: 100px;
 }
 
-.Welcome-title{
+.Welcome-title {
     padding-top: 100px;
 }
 
-.Read-More{
+.Read-More {
     border-radius: 50px;
     border: none;
     background-color: #a3c0be;
@@ -99,21 +100,48 @@ body {
     transition-duration: 500ms;
 }
 
-.List{
+.List {
     display: flex;
     margin-top: 15px;
 }
 
-.About-Body{
+.About-Body {
     display: flex;
-    gap:100px;
+    gap: 100px;
     padding: 0 200px 0 200px;
 }
 
-.Main-About{
+.Main-About {
     padding-top: 200px;
 }
 
-.About-title{
-    padding-top: 250px;
+.About-title {
+    padding-top: 200px;
+}
+
+.Trainers {
+    padding-top: 100px;
+    background-color: #a3c0be;
+    display: block;
+    text-align: center;
+}
+
+.Trainers-section {
+    padding-top: 100px;
+}
+
+.Trainers > h1{
+    font-size: xx-large;
+}
+
+.Img-Column{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    padding: 0 200px 0 200px;
+    padding-top: 50px;
+}
+
+.img-training{
+    width: 350px;
+    height: 450px;
 }

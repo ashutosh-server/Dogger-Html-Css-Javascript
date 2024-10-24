@@ -94,6 +94,23 @@ body {
     cursor: pointer;
 }
 
+.Read-More1 {
+    border-radius: 50px;
+    border: none;
+    background-color: #6c757e;
+    color: white;
+    font-size: medium;
+    margin-top: 20px;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+}
+
+.Read-More1:hover {
+    background-color: #353a40;
+    transition: all;
+    transition-duration: 500ms;
+}
+
 .Read-More:hover {
     background-color: black;
     transition: all;
@@ -130,18 +147,18 @@ body {
     padding-top: 100px;
 }
 
-.Trainers > h1{
+.Trainers>h1 {
     font-size: xx-large;
 }
 
-.Img-Column{
+.Img-Column {
     display: grid;
-    grid-template-columns: repeat(3 ,1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 0 200px 0 200px;
     padding-top: 50px;
 }
 
-.img-training{
+.img-training {
     width: 350px;
     height: 450px;
 }
@@ -152,6 +169,36 @@ body {
     text-align: center;
 }
 
-.Pricing-section{
+.Pricing-section {
     padding-top: 100px;
+}
+
+.Pricing-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 200px 0 200px;
+    padding-top: 50px;
+}
+
+.Frequently-Body {
+    padding: 100px 0 100px 0;
+    display: block;
+    text-align: center;
+}
+
+
+.Frequently-section {
+    padding-top: 100px;
+}
+
+.Frequently-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 200px 0 200px;
+    padding-top: 50px;
+}
+.Customers-section{
+    padding: 100px 0 100px 0;
+    display: block;
+    text-align: center;
 }

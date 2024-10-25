@@ -234,7 +234,7 @@ body {
 .Blog-body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 100px 0 100px;
+    padding: 0 200px 0 200px;
 }
 
 .Services-section {
@@ -246,5 +246,30 @@ body {
 .Services-Body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 0 100px 0 100px;
+    padding: 0 200px 0 200px;
+}
+
+
+.Contact-section {
+    padding-top: 100px;
+    display: block;
+}
+
+.Contact-Body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 200px 0 200px;
+}
+
+footer {
+    background-color: #333333;
+    padding: 200px 0 200px 0;
+}
+
+.About-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 200px 0 200px;
+    color: white;
+    border-bottom: 1px solid #8a8280;
 }

@@ -210,13 +210,19 @@ body {
     text-align: center;
 }
 
-.grid-gallery{
+.grid-gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 0 10px 0 10px;
 }
 
-.grid-gallery img{
+.grid-gallery img {
     width: 373px;
-    
+
+}
+
+.Blog-section {
+    padding-top: 100px;
+    display: block;
+    text-align: center;
 }

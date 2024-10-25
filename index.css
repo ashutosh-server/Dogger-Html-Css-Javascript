@@ -191,14 +191,32 @@ body {
     padding-top: 100px;
 }
 
-.Frequently-content{
+.Frequently-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 0 200px 0 200px;
     padding-top: 50px;
 }
-.Customers-section{
+
+.Customers-section {
     padding: 100px 0 100px 0;
     display: block;
     text-align: center;
+}
+
+.Gallery-section {
+    padding-top: 100px;
+    display: block;
+    text-align: center;
+}
+
+.grid-gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 10px 0 10px;
+}
+
+.grid-gallery img{
+    width: 373px;
+    
 }

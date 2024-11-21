@@ -232,10 +232,12 @@ body {
 
 .img-size {
     width: 200px;
+    height: 130px;
 }
 
 .Blog-body {
     display: grid;
+    text-align: start;
     grid-template-columns: repeat(2, 1fr);
     padding: 0 200px 0 200px;
 }
@@ -250,6 +252,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 0 200px 0 200px;
+    margin-top: 50px;
 }
 
 
